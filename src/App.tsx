@@ -1,8 +1,12 @@
 import React from "react";
 import Login from "./components/Login";
+import Logout from "./components/Logout";
 
 function App() {
-  return <Login />;
+  return (
+    //<Login />
+    <Logout />
+  );
 }
 
 export default App;
